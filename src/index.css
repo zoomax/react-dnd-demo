@@ -44,3 +44,80 @@ body {
 .fade {
   opacity: 0.5;
 }
+
+.align-vh {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.round-card {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #fff;
+  text-align: center;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+.round-card-holder {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: rgb(209, 209, 209);
+}
+.round-card-holder:hover {
+  background-color: rgba(160, 170, 27, 0.5);
+  color: white;
+}
+.round-card:hover {
+  background-color: rgba(5, 80, 74, 0.5);
+  color: white;
+}
+.round-card-container {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgb(122, 122, 122);
+  margin: 10px auto;
+}
+
+.production {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  background-color: #00aeef;
+  max-height: 150px;
+}
+
+.cash {
+  background-color: #f5821e;
+}
+.owner {
+  background-color: #da2c74;
+}
+.lender {
+  background-color: #cb58a2;
+}
+.info-text {
+  margin: 20px auto 15px;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(233, 233, 233);
+}
+
+.is-over {
+  background-color: rgba(160, 170, 27, 0.5);
+  color: white;
+}
+.is-dragging {
+  background-color: rgba(27, 170, 158, 0.5);
+  color: white;
+}
